@@ -21,7 +21,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#contact">Contact</a>
         </li>
         <li onClick={() => setMenuOpen(false)} className="resume">
-          <a href="assets/arrow.png" download="Siyanbola Faruk's Resume">
+          <a href="assets/Faruk_Siyanbola_Resume.pdf" download="Siyanbola Faruk's Resume">
             Download Resume <FileDownloadIcon />
           </a>
         </li>
