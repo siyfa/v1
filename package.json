@@ -13,9 +13,13 @@
     "@mui/icons-material": "^5.14.9",
     "@mui/material": "^5.14.9",
     "@mui/styled-engine-sc": "^5.14.9",
+    "animate.css": "^4.1.1",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.7",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.11"
+    "react-tsparticles": "^2.12.2",
+    "styled-components": "^5.3.11",
+    "tsparticles": "^2.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
