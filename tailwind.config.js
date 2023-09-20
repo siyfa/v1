@@ -6,7 +6,15 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        primary: ["Montserrat Alternates", "sans - serif"],
+        secondary: ["Kanit", "sans - serif"],
+        tetiary: ["Raleway Dots", "cursive"]
+      }
+    }
+  },
   plugins: [
     require('flowbite/plugin')
   ],

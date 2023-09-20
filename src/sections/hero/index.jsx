@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Wrapper, Overlay, Logo } from "../../components/style.js";
+import { Wrapper, Overlay, HeroContent } from "../../components/style.js";
 import "animate.css";
 
 import { ParticleBackground } from "../../components/particle.jsx";
@@ -11,10 +11,10 @@ export const Hero = () => {
     <Wrapper>
       <ParticleBackground />
       <Overlay>
-        <div className="animate__animated animate__backInUp">
-          <NavBar />
-          <h1>hello</h1>
-        </div>
+        <NavBar />
+        <HeroContent className="animate__animated animate__backInUp">
+          <h1>Hello</h1>
+        </HeroContent>
       </Overlay>
     </Wrapper>
   );
