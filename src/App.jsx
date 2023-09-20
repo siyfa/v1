@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-
-import "./App.css";
-import { Hero } from "./components/hero";
+import React, { useState, useEffect } from "react";
+import { Hero } from "./sections/hero";
 import { Splash } from "./components/splash";
+import { About } from "./sections/about";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -10,14 +9,19 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 4000);
   }, []);
 
   return (
     <>
-    {loading ? <Splash />: (
-      <Hero />
-    )}
+      {loading ? (
+        <Splash />
+      ) : (
+        <>
+          <Hero />
+          <About />
+        </>
+      )}
     </>
   );
 }
