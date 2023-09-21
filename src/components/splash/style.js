@@ -69,6 +69,7 @@ export const Wrapper = styled.div`
         @media screen and (max-width: 568px){    
             .container {
                 width: 200px;
+                height: 250px;
             }
 
             img{
