@@ -5,13 +5,14 @@ export const Wrapper = styled.div`
     height: 100%;
     width: 100%;
     position: relative;
+    margin-bottom: -60px;
 `;
 
 export const Section = styled.div`
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    margin-top: -60px;
+    margin: 0;
 `;
 
 export const Overlay = styled.div`

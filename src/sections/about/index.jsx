@@ -1,4 +1,5 @@
-import { Wrapper, Section } from "../../components/style";
+import { Section } from "../../components/style";
+import Me from "../../assets/images/me.jpg";
 
 export const About = () => {
   return (
@@ -8,7 +9,7 @@ export const About = () => {
           <h2 className="text-3xl font-primary">About Me</h2>
           <span className="bg-gray-500 h-0.5 w-1/4 ml-5"></span>
         </div>
-        <div className="flex flex-wrap items-center">
+        <div className="flex flex-wrap md:flex-row flex-col items-center justify-between">
           <div className="w-1/2 text-lg font-tetiary tracking-wide">
             <p className="mb-5">
               Hello! My name is Faruk and I enjoy creating things that live on
@@ -39,18 +40,27 @@ export const About = () => {
               <p>
                 Here are a few technologies I’ve been working with recently:
               </p>
-              <div className="flex flex-wrap">
-                <p>JavaScript (ES6+)</p>
-                <p className="ml-14">TypeScript</p>
-              </div>
-              <div className="flex flex-wrap">
-                <p>Node</p>
-                <p className="ml-36">React</p>
-              </div>
-              <div className="flex flex-wrap">
-                <p>AWS</p>
-                <p className="ml-36">Python</p>
-              </div>
+              <ul className="flex flex-wrap list-disc ml-5">
+                <li>Node</li>
+                <li className="ml-14">JavaScript (ES6+)</li>
+              </ul>
+              <ul className="flex flex-wrap list-disc ml-5">
+                <li>React</li>
+                <li className="ml-14">TypeScript</li>
+              </ul>
+              <ul className="flex flex-wrap list-disc ml-5">
+                <li>AWS</li>
+                <li className="ml-14">Python</li>
+              </ul>
+            </div>
+          </div>
+          <div className="">
+            <div className="h-96 w-96 bg-gray-300 relative rounded">
+              <img
+                src={Me}
+                alt="siyanbola faruk"
+                className="object-cover md:h-full md:w-full absolute left-3 hover:left-0 bottom-3 hover:bottom-0 mix-blend-multiply brightness-50 hover:brightness-100 rounded"
+              />
             </div>
           </div>
         </div>

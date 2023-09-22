@@ -4,6 +4,7 @@ import { Splash } from "./components/splash";
 import { About } from "./sections/about";
 import { ParticleBackground } from "./components/particle";
 import { Overlay } from "./components/style";
+import { Experience } from "./sections/experience";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ function App() {
           <Overlay>
             <Hero />
             <About />
+            <Experience/>
           </Overlay>
         </>
       )}
