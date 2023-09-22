@@ -16,9 +16,9 @@ export const Experience = () => {
           <span className="bg-gray-500 h-0.5 w-1/4 ml-5"></span>
         </div>
 
-        <div class="mb-4 mt-2 border-b border-gray-200 dark:border-gray-700">
+        <div class="mb-4 mt-2 border-b border-gray-900 dark:border-gray-700 w-fit">
           <ul
-            class="flex flex-wrap -mb-px text-sm font-medium text-center tracking-wide"
+            class="flex flex-wrap -mb-px font-medium text-center tracking-wide text-xl font-secondary"
             id="myTab"
             data-tabs-toggle="#myTabContent"
             role="tablist"
@@ -27,7 +27,7 @@ export const Experience = () => {
               <button
                 className={`inline-block p-4 border-b-2 rounded-t-lg ${
                   activeTab === "trusoft"
-                    ? "border-blue-500"
+                    ? "border-gray-600"
                     : "border-transparent"
                 }`}
                 id="trusoft-tab"
@@ -45,7 +45,7 @@ export const Experience = () => {
               <button
                 class={`inline-block p-4 border-b-2 rounded-t-lg ${
                   activeTab === "foodtrain"
-                    ? "border-blue-500"
+                    ? "border-gray-600"
                     : "border-transparent"
                 }`}
                 id="foodtrain-tab"
@@ -63,7 +63,7 @@ export const Experience = () => {
               <button
                 class={`inline-block p-4 border-b-2 rounded-t-lg ${
                   activeTab === "proctorme"
-                    ? "border-blue-500"
+                    ? "border-gray-600"
                     : "border-transparent"
                 }`}
                 id="proctorme-tab"
@@ -81,52 +81,133 @@ export const Experience = () => {
         </div>
         <div id="myTabContent">
           <div
-            className={`p-4 rounded-lg ${
-              activeTab === "trusoft" ? "bg-gray-50 dark:bg-gray-800" : "hidden"
+            className={`p-4 rounded-lg tracking-wide font-tetiary ${
+              activeTab === "trusoft" ? "bg-transparent" : "hidden"
             }`}
             id="trusoft"
             role="tabpanel"
             aria-labelledby="trusoft-tab"
           >
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              This is some placeholder content the{" "}
-              <strong className="font-medium text-gray-800 dark:text-white">
-                Profile tab's associated content
-              </strong>
-              .
-            </p>
+            <h4 className="text-2xl">
+              Lead Engineer -
+              <a
+                href="https://trusoftng.com"
+                className="text-gray-100 font-bold hover:underline ml-1"
+                target="_blank"
+              >
+                Trusoft
+              </a>
+            </h4>
+            <p className="text-lg">July 2022 - Present</p>
+            <p className="text-md"> - Remote</p>
+            <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients including Harvard Business School,
+                Everytown for Gun Safety, Pratt Institute, Koala Health,
+                Vanderbilt University, The 19th News, and more
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients including Harvard Business School,
+                Everytown for Gun Safety, Pratt Institute, Koala Health,
+                Vanderbilt University, The 19th News, and more
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients
+              </li>
+            </ol>
           </div>
           <div
-            className={`p-4 rounded-lg ${
-              activeTab === "foodtrain" ? "bg-gray-50 dark:bg-gray-800" : "hidden"
+            className={`p-4 rounded-lg tracking-wide font-tetiary ${
+              activeTab === "foodtrain" ? "bg-transparent" : "hidden"
             }`}
             id="foodtrain"
             role="tabpanel"
             aria-labelledby="foodtrain-tab"
           >
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              This is some placeholder content the foodtrain
-              <strong className="font-medium text-gray-800 dark:text-white">
-                Profile tab's associated content
-              </strong>
-              .
-            </p>
+            <h4 className="text-2xl">
+              MERN Stack Developer -
+              <a
+                href="https://foodtrain.co"
+                className="text-gray-100 font-bold hover:underline ml-1"
+                target="_blank"
+              >
+                FoodTrain
+              </a>
+            </h4>
+            <p className="text-lg">May 2021 - June 2022</p>
+            <p className="text-md"> - Remote</p>
+            <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients including Harvard Business School,
+                Everytown for Gun Safety, Pratt Institute, Koala Health,
+                Vanderbilt University, The 19th News, and more
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients including Harvard Business School,
+                Everytown for Gun Safety, Pratt Institute, Koala Health,
+                Vanderbilt University, The 19th News, and more
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients
+              </li>
+            </ol>
           </div>
           <div
-            className={`p-4 rounded-lg ${
-              activeTab === "proctorme" ? "bg-gray-50 dark:bg-gray-800" : "hidden"
+            className={`p-4 rounded-lg tracking-wide font-tetiary ${
+              activeTab === "proctorme" ? "bg-transparent" : "hidden"
             }`}
             id="proctorme"
             role="tabpanel"
             aria-labelledby="proctorme-tab"
           >
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              This is some placeholder content the proctorme
-              <strong className="font-medium text-gray-800 dark:text-white">
-                Profile tab's associated content
-              </strong>
-              .
-            </p>
+            <h4 className="text-2xl">
+              React Developer -
+              <a
+                href="https://proctorme.com"
+                className="text-gray-100 font-bold hover:underline ml-1"
+                target="_blank"
+              >
+                ProctorMe
+              </a>
+            </h4>
+            <p className="text-lg">July 2022 - Present</p>
+            <p className="text-md"> - Contract</p>
+            <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients including Harvard Business School,
+                Everytown for Gun Safety, Pratt Institute, Koala Health,
+                Vanderbilt University, The 19th News, and more
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients including Harvard Business School,
+                Everytown for Gun Safety, Pratt Institute, Koala Health,
+                Vanderbilt University, The 19th News, and more
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients
+              </li>
+              <li className="mb-5">
+                Deliver high-quality, robust production code for a diverse array
+                of projects for clients
+              </li>
+            </ol>
           </div>
         </div>
       </div>

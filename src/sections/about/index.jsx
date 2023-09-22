@@ -59,7 +59,7 @@ export const About = () => {
               <img
                 src={Me}
                 alt="siyanbola faruk"
-                className="object-cover md:h-full md:w-full absolute left-3 hover:left-0 bottom-3 hover:bottom-0 mix-blend-multiply brightness-50 hover:brightness-100 rounded"
+                className="object-cover md:h-full md:w-full absolute left-3 hover:left-0 bottom-3 hover:bottom-0 mix-blend-multiply brightness-50 hover:brightness-100 rounded transition-all ease-in-out delay-150"
               />
             </div>
           </div>
