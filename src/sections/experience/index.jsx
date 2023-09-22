@@ -1,6 +1,13 @@
+import { useState } from "react";
 import { Section } from "../../components/style";
 
 export const Experience = () => {
+  const [activeTab, setActiveTab] = useState("trusoft");
+
+  const handleTabClick = (tabId) => {
+    setActiveTab(tabId);
+  };
+
   return (
     <Section>
       <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-10 md:px-28 px-5">
@@ -18,121 +25,107 @@ export const Experience = () => {
           >
             <li class="mr-2" role="presentation">
               <button
-                class="inline-block p-4 border-b-2 rounded-t-lg"
-                id="profile-tab"
-                data-tabs-target="#profile"
+                className={`inline-block p-4 border-b-2 rounded-t-lg ${
+                  activeTab === "trusoft"
+                    ? "border-blue-500"
+                    : "border-transparent"
+                }`}
+                id="trusoft-tab"
+                data-tabs-target="#trusoft"
                 type="button"
                 role="tab"
-                aria-controls="profile"
-                aria-selected="false"
+                aria-controls="trusoft"
+                aria-selected={activeTab === "trusoft"}
+                onClick={() => handleTabClick("trusoft")}
               >
-                Profile
+                Trusoft
               </button>
             </li>
             <li class="mr-2" role="presentation">
               <button
-                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                id="dashboard-tab"
-                data-tabs-target="#dashboard"
+                class={`inline-block p-4 border-b-2 rounded-t-lg ${
+                  activeTab === "foodtrain"
+                    ? "border-blue-500"
+                    : "border-transparent"
+                }`}
+                id="foodtrain-tab"
+                data-tabs-target="#foodtrain"
                 type="button"
                 role="tab"
-                aria-controls="dashboard"
-                aria-selected="false"
+                aria-controls="foodtrain"
+                aria-selected={activeTab === "foodtrain"}
+                onClick={() => handleTabClick("foodtrain")}
               >
-                Dashboard
+                FoodTrain
               </button>
             </li>
             <li class="mr-2" role="presentation">
               <button
-                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                id="settings-tab"
-                data-tabs-target="#settings"
+                class={`inline-block p-4 border-b-2 rounded-t-lg ${
+                  activeTab === "proctorme"
+                    ? "border-blue-500"
+                    : "border-transparent"
+                }`}
+                id="proctorme-tab"
+                data-tabs-target="#proctorme"
                 type="button"
                 role="tab"
                 aria-controls="settings"
-                aria-selected="false"
+                aria-selected={activeTab === "proctorme"}
+                onClick={() => handleTabClick("proctorme")}
               >
-                Settings
-              </button>
-            </li>
-            <li role="presentation">
-              <button
-                class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                id="contacts-tab"
-                data-tabs-target="#contacts"
-                type="button"
-                role="tab"
-                aria-controls="contacts"
-                aria-selected="false"
-              >
-                Contacts
+                ProctorMe
               </button>
             </li>
           </ul>
         </div>
         <div id="myTabContent">
           <div
-            class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-            id="profile"
+            className={`p-4 rounded-lg ${
+              activeTab === "trusoft" ? "bg-gray-50 dark:bg-gray-800" : "hidden"
+            }`}
+            id="trusoft"
             role="tabpanel"
-            aria-labelledby="profile-tab"
+            aria-labelledby="trusoft-tab"
           >
-            <p class="text-sm text-gray-500 dark:text-gray-400">
+            <p className="text-sm text-gray-500 dark:text-gray-400">
               This is some placeholder content the{" "}
-              <strong class="font-medium text-gray-800 dark:text-white">
+              <strong className="font-medium text-gray-800 dark:text-white">
                 Profile tab's associated content
               </strong>
-              . Clicking another tab will toggle the visibility of this one for
-              the next. The tab JavaScript swaps classes to control the content
-              visibility and styling.
+              .
             </p>
           </div>
           <div
-            class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-            id="dashboard"
+            className={`p-4 rounded-lg ${
+              activeTab === "foodtrain" ? "bg-gray-50 dark:bg-gray-800" : "hidden"
+            }`}
+            id="foodtrain"
             role="tabpanel"
-            aria-labelledby="dashboard-tab"
+            aria-labelledby="foodtrain-tab"
           >
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              This is some placeholder content the{" "}
-              <strong class="font-medium text-gray-800 dark:text-white">
-                Dashboard tab's associated content
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              This is some placeholder content the foodtrain
+              <strong className="font-medium text-gray-800 dark:text-white">
+                Profile tab's associated content
               </strong>
-              . Clicking another tab will toggle the visibility of this one for
-              the next. The tab JavaScript swaps classes to control the content
-              visibility and styling.
+              .
             </p>
           </div>
           <div
-            class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-            id="settings"
+            className={`p-4 rounded-lg ${
+              activeTab === "proctorme" ? "bg-gray-50 dark:bg-gray-800" : "hidden"
+            }`}
+            id="proctorme"
             role="tabpanel"
-            aria-labelledby="settings-tab"
+            aria-labelledby="proctorme-tab"
           >
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              This is some placeholder content the{" "}
-              <strong class="font-medium text-gray-800 dark:text-white">
-                Settings tab's associated content
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              This is some placeholder content the proctorme
+              <strong className="font-medium text-gray-800 dark:text-white">
+                Profile tab's associated content
               </strong>
-              . Clicking another tab will toggle the visibility of this one for
-              the next. The tab JavaScript swaps classes to control the content
-              visibility and styling.
-            </p>
-          </div>
-          <div
-            class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-            id="contacts"
-            role="tabpanel"
-            aria-labelledby="contacts-tab"
-          >
-            <p class="text-sm text-gray-500 dark:text-gray-400">
-              This is some placeholder content the{" "}
-              <strong class="font-medium text-gray-800 dark:text-white">
-                Contacts tab's associated content
-              </strong>
-              . Clicking another tab will toggle the visibility of this one for
-              the next. The tab JavaScript swaps classes to control the content
-              visibility and styling.
+              .
             </p>
           </div>
         </div>
