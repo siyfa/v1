@@ -15,7 +15,7 @@ export const ParticleBackground = () => {
         init={particlesInit}
         options={{
           fullScreen: {
-            enable: false,
+            enable: true,
             zIndex: 1,
           },
           particles: {

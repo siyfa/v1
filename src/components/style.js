@@ -7,11 +7,19 @@ export const Wrapper = styled.div`
     position: relative;
 `;
 
+export const Section = styled.div`
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: -60px;
+`;
+
 export const Overlay = styled.div`
     position: absolute;
     top: 0;
-    height: 100%;
-    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;

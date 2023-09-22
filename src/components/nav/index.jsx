@@ -36,7 +36,7 @@ function NavBar() {
     <nav
       className={`${
         visible ? "top-0 shadow-lg" : "-top-20"
-      } transition-all duration-300 ease-in-out fixed left-0 w-full z-50`}
+      } transition-all duration-300 ease-in-out fixed left-0 w-full z-50 bg-[#0a0a0a]`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 animate__animated animate__backInUp font-tetiary tracking-wide text-xl">
         <a href="#" className="flex items-center">
@@ -45,7 +45,7 @@ function NavBar() {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded={isMenuOpen}
           onClick={toggleMenu}
@@ -76,7 +76,7 @@ function NavBar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About
               </a>
@@ -84,7 +84,7 @@ function NavBar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contact
               </a>
@@ -92,7 +92,7 @@ function NavBar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Experience
               </a>
@@ -100,7 +100,7 @@ function NavBar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Resume
               </a>
