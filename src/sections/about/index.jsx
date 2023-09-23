@@ -4,7 +4,7 @@ import Me from "../../assets/images/me.jpg";
 export const About = () => {
   return (
     <Section>
-      <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-10 md:px-28 px-5">
+      <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-24 md:px-28 px-5">
         <div className="flex flex-wrap justify-left items-center mb-5">
           <h2 className="text-3xl font-primary">About Me</h2>
           <span className="bg-gray-500 h-0.5 w-1/4 ml-5"></span>

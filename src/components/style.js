@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Section = styled.div`
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     margin: 0;
