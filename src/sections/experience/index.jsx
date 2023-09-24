@@ -10,15 +10,15 @@ export const Experience = () => {
 
   return (
     <Section>
-      <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-24 md:px-28 px-5">
-        <div className="flex flex-wrap justify-left items-center mb-5">
+      <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-24 md:px-28 px-3">
+        <div className="flex flex-wrap md:flex-row flex-col justify-left items-center mb-5">
           <h2 className="text-3xl font-primary">Where I've worked</h2>
-          <span className="bg-gray-500 h-0.5 w-1/4 ml-5"></span>
+          <span className="bg-gray-500 h-0.5 md:w-1/4 w-1/4 md:mt-0 mt-2 md:ml-5"></span>
         </div>
 
         <div class="mb-4 mt-2 border-b border-gray-900 dark:border-gray-700 w-fit">
           <ul
-            class="flex flex-wrap -mb-px font-medium text-center tracking-wide text-xl font-secondary"
+            class="flex flex-wrap -mb-px font-medium text-center tracking-wide md:text-xl  font-secondary"
             id="myTab"
             data-tabs-toggle="#myTabContent"
             role="tablist"

@@ -9,8 +9,8 @@ export const About = () => {
           <h2 className="text-3xl font-primary">About Me</h2>
           <span className="bg-gray-500 h-0.5 w-1/4 ml-5"></span>
         </div>
-        <div className="flex flex-wrap md:flex-row flex-col items-center justify-between">
-          <div className="w-1/2 text-lg font-tetiary tracking-wide">
+        <div className="flex h-auto md:flex-row flex-col-reverse items-center justify-bewteen w-ful">
+          <div className="text-lg font-tetiary tracking-wide md:w-1/2 w-full">
             <p className="mb-5">
               Hello! My name is Faruk and I enjoy creating things that live on
               the internet. My interest in web development started back in 2019
@@ -54,12 +54,12 @@ export const About = () => {
               </ul>
             </div>
           </div>
-          <div className="">
-            <div className="h-96 w-96 bg-gray-300 relative rounded">
+          <div className="md:w-1/2 w-full flex justify-center md:ml-5 ml-0 md-mb-0 mb-8">
+            <div className="md:h-96 md:w-96 h-[50vh] w-full bg-gray-300 relative rounded">
               <img
                 src={Me}
                 alt="siyanbola faruk"
-                className="object-cover md:h-full md:w-full absolute left-3 hover:left-0 bottom-3 hover:bottom-0 mix-blend-multiply brightness-50 hover:brightness-100 rounded transition-all ease-in-out delay-150"
+                className="object-cover md:h-full h-[50vh] w-full absolute md:left-3 left-1 hover:left-0 md:bottom-3 bottom-1 hover:bottom-0 mix-blend-multiply brightness-50 hover:brightness-100 rounded transition-all ease-in-out delay-150"
               />
             </div>
           </div>
