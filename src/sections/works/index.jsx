@@ -6,7 +6,7 @@ import LinkIcon from "../../assets/url.svg";
 
 export const Works = () => {
   return (
-    <Section>
+    <Section id="work">
       <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-24 md:px-28 px-5">
         <div className="flex flex-wrap md:flex-row flex-col justify-left items-center mb-5">
           <h2 className="text-3xl font-primary">Some Things I've Built</h2>
@@ -39,8 +39,8 @@ export const Works = () => {
                 </a>
               </div>
               <div className="">
-                <div className="md:bg-[#080808] bg-[rgba(10,10,10,0.9)] md:h-56 w-full absolute md:top-20 top-0 bottom-0 md:right-1/4 ">
-                  <p className="p-2 text-lg font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
+                <div className="md:bg-[#f0f0f0] bg-[rgba(10,10,10,0.8)] md:h-56 w-full absolute md:top-20 top-0 bottom-0 md:right-1/4 ">
+                  <p className="p-2 text-lg md:text-black md:font-bold font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                     cupiditate facere dolores ipsa consequuntur nihil tempora
                     rem repudiandae delectus? Aliquam dolor ea esse aliquid
@@ -86,8 +86,8 @@ export const Works = () => {
                   Project Name
                 </a>
               </div>
-              <div className="md:bg-[#080808] bg-[rgba(10,10,10,0.9)] md:h-56 h-[350px] w-full absolute md:top-20 md:left-1/4 top-0 bottom-0 left-0">
-                <p className="p-2 text-lg font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
+              <div className="md:bg-[#f0f0f0] bg-[rgba(10,10,10,0.8)] md:h-56 h-[350px] w-full absolute md:top-20 md:left-1/4 top-0 bottom-0 left-0">
+                <p className="p-2 text-lg md:text-black md:font-bold font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
                   cupiditate facere dolores ipsa consequuntur nihil tempora rem
                   repudiandae delectus? Aliquam dolor ea esse aliquid ipsam

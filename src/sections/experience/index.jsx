@@ -9,7 +9,7 @@ export const Experience = () => {
   };
 
   return (
-    <Section>
+    <Section id="experience">
       <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-24 md:px-28 px-3">
         <div className="flex flex-wrap md:flex-row flex-col justify-left items-center mb-5">
           <h2 className="text-3xl font-primary">Where I've worked</h2>

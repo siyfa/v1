@@ -45,7 +45,7 @@ function NavBar() {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded={isMenuOpen}
           onClick={toggleMenu}
@@ -75,7 +75,7 @@ function NavBar() {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 bg-white md:bg-transparent rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <a
-                href="#"
+                href="#about"
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About
@@ -83,7 +83,7 @@ function NavBar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#experience"
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Experience
@@ -91,7 +91,7 @@ function NavBar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#work"
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Work
@@ -99,7 +99,7 @@ function NavBar() {
             </li>
             <li>
               <a
-                href="#"
+                href="#contact"
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contact

@@ -2,7 +2,7 @@ import { Section } from "../../components/style";
 
 export const Contact = () => {
   return (
-    <Section>
+    <Section id="contact">
       <div className="max-w-screen-xl flex flex-wrap flex-col mx-auto pt-24 md:px-28 px-5 justify-center items-center">
         <div className="md:mb-5">
           <h2 className="text-3xl font-secondary mt-10">What's Next?</h2>
@@ -22,8 +22,8 @@ export const Contact = () => {
             Say Hello
           </a>
           <a
-            href="https://www.github.com/siyfa"
-            className="md:mt-40 mt-72 mb-5 block hover:underline font-bold"
+            href="https://github.com/siyfa/v1"
+            className="md:mt-40 mt-72 mb-5 block hover:underline font-tetiary"
           >
             Designed & Built by Siyanbola Faruk
           </a>
