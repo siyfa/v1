@@ -7,6 +7,7 @@ import { Overlay } from "./components/style";
 import { Experience } from "./sections/experience";
 import { Works } from "./sections/works";
 import { Contact } from "./sections/contact";
+import { Socials } from "./components/socials";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ function App() {
       ) : (
         <>
           <ParticleBackground />
+          <Socials/>
           <Overlay>
             <Hero />
             <About />

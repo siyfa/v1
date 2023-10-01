@@ -39,7 +39,7 @@ function NavBar() {
       } transition-all duration-300 ease-in-out fixed left-0 w-full z-50 bg-[#0a0a0a]`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 animate__animated animate__backInUp font-tetiary tracking-wide text-xl">
-        <a href="#" className="flex items-center">
+        <a href="#about" className="flex items-center">
           <Logo />
         </a>
         <button
@@ -76,6 +76,7 @@ function NavBar() {
             <li>
               <a
                 href="#about"
+                onClick={toggleMenu}
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About
@@ -84,6 +85,7 @@ function NavBar() {
             <li>
               <a
                 href="#experience"
+                onClick={toggleMenu}
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Experience
@@ -92,6 +94,7 @@ function NavBar() {
             <li>
               <a
                 href="#work"
+                onClick={toggleMenu}
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Work
@@ -100,6 +103,7 @@ function NavBar() {
             <li>
               <a
                 href="#contact"
+                onClick={toggleMenu}
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contact
@@ -108,6 +112,7 @@ function NavBar() {
             <li>
               <a
                 href="#"
+                onClick={toggleMenu}
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Resume

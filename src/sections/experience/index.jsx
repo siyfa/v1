@@ -16,14 +16,14 @@ export const Experience = () => {
           <span className="bg-gray-500 h-0.5 md:w-1/4 w-1/4 md:mt-0 mt-2 md:ml-5"></span>
         </div>
 
-        <div class="mb-4 mt-2 border-b border-gray-900 dark:border-gray-700 w-fit">
+        <div className="mb-4 mt-2 border-b border-gray-900 dark:border-gray-700 w-fit">
           <ul
-            class="flex flex-wrap -mb-px font-medium text-center tracking-wide md:text-xl  font-secondary"
+            className="flex flex-wrap -mb-px font-medium text-center tracking-wide md:text-xl  font-secondary"
             id="myTab"
             data-tabs-toggle="#myTabContent"
             role="tablist"
           >
-            <li class="mr-2" role="presentation">
+            <li className="mr-2" role="presentation">
               <button
                 className={`inline-block p-4 border-b-2 rounded-t-lg ${
                   activeTab === "trusoft"
@@ -41,9 +41,9 @@ export const Experience = () => {
                 Trusoft
               </button>
             </li>
-            <li class="mr-2" role="presentation">
+            <li className="mr-2" role="presentation">
               <button
-                class={`inline-block p-4 border-b-2 rounded-t-lg ${
+                className={`inline-block p-4 border-b-2 rounded-t-lg ${
                   activeTab === "foodtrain"
                     ? "border-gray-600"
                     : "border-transparent"
@@ -59,9 +59,9 @@ export const Experience = () => {
                 FoodTrain
               </button>
             </li>
-            <li class="mr-2" role="presentation">
+            <li className="mr-2" role="presentation">
               <button
-                class={`inline-block p-4 border-b-2 rounded-t-lg ${
+                className={`inline-block p-4 border-b-2 rounded-t-lg ${
                   activeTab === "proctorme"
                     ? "border-gray-600"
                     : "border-transparent"

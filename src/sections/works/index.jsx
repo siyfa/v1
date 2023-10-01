@@ -128,7 +128,7 @@ export const Works = () => {
             </a>
           </div>
         </div>
-        <button className="my-8 tracking-wide font-secondary text-md w-fit p-2 border-2 border-gray-100 border-dotted hover:border-dashed rounded mx-auto text-gray-100">
+        <button className="my-8 tracking-wide font-secondary text-md w-fit p-2 border-2 border-gray-400 border-dotted hover:border-dashed rounded mx-auto text-gray-100">
           Show More
         </button>
       </div>

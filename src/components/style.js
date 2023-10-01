@@ -26,6 +26,16 @@ export const Overlay = styled.div`
     color: #fff;
 `;
 
+export const SocialWrapper = styled.div`
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    color: #fff;
+    /* padding: 0 60px; */
+`;
+
 export const Logo = styled.div`
     width: 50px;
     height: 50px;
