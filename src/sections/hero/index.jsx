@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <Wrapper>
       <NavBar />
-      <HeroContent className="animate__animated animate__backInUp" id="about">
+      <HeroContent className="animate__animated animate__backInUp" id="top">
         <div className="max-w-screen-xl flex flex-wrap flex-col md:h-[90vh] h-[100vh] md:justify-around justify-center mx-auto md:pt-40 pt-20 md:px-28 px-2 animate__animated animate__backInUp">
           <p className="md:text-xl font-tetiary font-bold tracking-wide">
             Hi, my name is

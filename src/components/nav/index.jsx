@@ -39,7 +39,7 @@ function NavBar() {
       } transition-all duration-300 ease-in-out fixed left-0 w-full z-50 bg-[#0a0a0a]`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 animate__animated animate__backInUp font-tetiary tracking-wide text-xl">
-        <a href="#about" className="flex items-center">
+        <a href="#top" className="flex items-center">
           <Logo />
         </a>
         <button

@@ -48,13 +48,13 @@ export const Wrapper = styled.div`
                 content: '';
                 position: absolute;
                 z-index: -1;
-                left: 6px;
-                top: 6px;
-                width: calc(100% - 12px);
-                height: calc(100% - 12px);
+                left: 0px;
+                top: 0px;
+                width: calc(100% - 0px);
+                height: calc(100% - 0px);
                 background: white;
                 border-radius: 5px;
-                animation: opacityChange 3s infinite alternate;
+                animation: opacityChange 4s infinite alternate;
             }
         }
 
@@ -68,8 +68,9 @@ export const Wrapper = styled.div`
 
         @media screen and (max-width: 568px){    
             .container {
-                width: 200px;
+                width: 80vw;
                 height: 250px;
+                margin: 0 auto;
             }
 
             img{
