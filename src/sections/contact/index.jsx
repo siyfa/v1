@@ -14,7 +14,7 @@ export const Contact = () => {
         <div className="tracking-wide text-center">
           <h2 className="my-8 text-6xl font-secondary">Get In Touch</h2>
           <p className="md:w-2/4 w-full mx-auto my-16 text-lg font-tetiary">
-            Although I’m not currently looking for any new opportunities, my
+            While I’m not actively seeking new opportunities, my
             inbox is always open. Whether you have a question or just want to
             say hi, I’ll try my best to get back to you!
           </p>

@@ -10,31 +10,33 @@ export const About = () => {
           <span className="bg-gray-500 h-0.5 w-1/4 ml-5"></span>
         </div>
         <div className="flex h-auto md:flex-row flex-col-reverse items-center justify-bewteen w-ful">
-          <div className="text-lg font-tetiary tracking-wide md:w-1/2 w-full">
+          <div className="text-lg font-tetiary tracking-wider md:w-1/2 w-full">
             <p className="mb-5">
               Hello! My name is Faruk and I enjoy creating things that live on
               the internet. My interest in web development started back in 2019
-              when I decided to try editing custom Tumblr themes — turns out
-              hacking together a custom reblog button taught me a lot about HTML
-              & CSS!
+              when I decided to build a blog for a friend with just HTML & CSS —
+              turns out there are more in web development than just HTML & CSS!
             </p>
             <p className="mb-5">
-              Fast-forward to today, and I’ve had the privilege of working at an
-              advertising agency, a start-up, a huge corporation, and a
-              student-led design studio. My main focus these days is building
-              accessible, inclusive products and digital experiences at
+              Today, thanks to the opportunities I've had to work in the
+              financial, logistics, e-commerce, and education sectors. I've
+              worked in a remote setting, with a variety of teams, and at
+              start-ups. My main focus these days is building accessible,
+              inclusive products and digital experiences at
               <a
                 href="https://trusoftng.com"
-                className="text-gray-100 font-bold hover:underline ml-1"
+                className="text-gray-100 font-bold hover:underline mx-1"
                 target="_blank"
               >
                 Trusoft
-              </a>{" "}
+              </a>
               for a variety of clients.
             </p>
             <p className="mb-5">
-              I also recently launched a course that covers everything you need
-              to build a web app with the Spotify API using Node & React.
+              I also deep dived into Cloud DevOps Engineering. I have few
+              years of experience in managing servers and infastructures. I
+              recently got certified as a Cloud DevOps Engineer at ALX/Udacity
+              after going through several learning and testing phases.
             </p>
             <div className="">
               <p>
@@ -50,7 +52,7 @@ export const About = () => {
               </ul>
               <ul className="flex flex-wrap list-disc ml-5">
                 <li>AWS</li>
-                <li className="ml-14">Python</li>
+                <li className="ml-14">Docker</li>
               </ul>
             </div>
           </div>

@@ -98,28 +98,35 @@ export const Experience = () => {
                 Trusoft
               </a>
             </h4>
-            <p className="text-lg">July 2022 - Present</p>
-            <p className="text-md"> - Remote</p>
+            <p className="text-lg">May 2023 - Present</p>
+            <h4 className="text-2xl">Backend Engineer -</h4>
+            <p className="text-lg">July 2022 - March 2023</p>
+            <p className="text-md tracking-widest"> - Fulltime</p>
             <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Actively engage in high-level meetings, leveraging technical
+                expertise to influence technology-related discussions and offer
+                valuable insights.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Deliver high-quality, robust production code for diverse client
+                projects, such as Cyberpay, Swiflink, Tos Funerals, Smart
+                Deposit Scheme (SDS), and more.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients
+                Oversee projects hosting and infrastructures, ensuring optimal
+                server performance and reliability.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients
+                Provide leadership within the engineering department by
+                fostering collaboration, sharing knowledge, and mentoring team
+                members.
+              </li>
+              <li className="mb-5">
+                Collaborate with cross-functional teams, including designers,
+                project managers, business analysts, and engineers, to translate
+                creative concepts into real-world solutions for clients and
+                stakeholders.
               </li>
             </ol>
           </div>
@@ -142,27 +149,28 @@ export const Experience = () => {
               </a>
             </h4>
             <p className="text-lg">May 2021 - June 2022</p>
-            <p className="text-md"> - Remote</p>
+            <p className="text-md tracking-widest"> - Fulltime</p>
             <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Designed and implemented a new UI interface for product
+                software, accommodating additional features to target emerging
+                markets.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Sharpened debugging skills in collaborative sessions with senior
+                developers and the CEO, expanding problem-solving approaches and
+                expertise.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients
+                Led the development of comprehensive technical documentation,
+                incorporating Postman API blueprints and complex system
+                architecture diagrams to boost team collaboration and streamline
+                the development lifecycle.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients
+                Actively pursued continuous professional growth through
+                participation in webinars, conferences, and workshops, staying
+                at the forefront of evolving technology trends.
               </li>
             </ol>
           </div>
@@ -175,7 +183,7 @@ export const Experience = () => {
             aria-labelledby="proctorme-tab"
           >
             <h4 className="text-2xl">
-              React Developer -
+              Frontend Developer -
               <a
                 href="https://proctorme.com"
                 className="text-gray-100 font-bold hover:underline ml-1"
@@ -184,28 +192,23 @@ export const Experience = () => {
                 ProctorMe
               </a>
             </h4>
-            <p className="text-lg">July 2022 - Present</p>
+            <p className="text-lg">December 2021 - May 2022</p>
             <p className="text-md"> - Contract</p>
             <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Leveraged React and Redux to meticulously design and construct
+                reusable components, orchestrating efficient state management
+                throughout the application.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients including Harvard Business School,
-                Everytown for Gun Safety, Pratt Institute, Koala Health,
-                Vanderbilt University, The 19th News, and more
+                Fostered seamless collaboration with backend engineers to ensure
+                smooth integration of frontend and backend components,
+                optimizing overall system performance.
               </li>
               <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients
-              </li>
-              <li className="mb-5">
-                Deliver high-quality, robust production code for a diverse array
-                of projects for clients
+                Implemented responsive design principles to ensure optimal user
+                experiences across various devices, enhancing accessibility and
+                engagement.
               </li>
             </ol>
           </div>

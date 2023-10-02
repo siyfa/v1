@@ -23,10 +23,10 @@ export const Hero = () => {
           <p className="md:text-xl font-tetiary tracking-wide md:w-3/4 w-auto">
             I’m a software engineer specializing in building and designing
             exceptional digital experiences. Currently, I’m focused on building
-            accessible, human-centered products at{" "}
+            accessible, human-centered products at
             <a
               href="https://trusoftng.com"
-              className="text-gray-100 font-bold hover:underline"
+              className="text-gray-100 font-bold hover:underline ml-1"
               target="_blank"
             >
               Trusoft

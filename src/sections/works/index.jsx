@@ -156,13 +156,14 @@ export const Works = () => {
             );
           }
         })}
-
-        <button
-          className="my-8 tracking-wide font-secondary text-md w-fit p-2 border-2 border-gray-400 border-dotted hover:border-dashed rounded mx-auto text-gray-100"
-          onClick={handleShowWorks}
-        >
-          Show More
-        </button>
+        {showWorks < works.length && (
+          <button
+            className="my-8 tracking-wide font-secondary text-md w-fit p-2 border-2 border-gray-400 border-dotted hover:border-dashed rounded mx-auto text-gray-100"
+            onClick={handleShowWorks}
+          >
+            Show More
+          </button>
+        )}
       </div>
     </Section>
   );

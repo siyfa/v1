@@ -20,7 +20,7 @@ export const ParticleBackground = () => {
           },
           particles: {
             number: {
-              value: 30,
+              value: 35,
               density: {
                 enable: false,
                 value_area: 800,
@@ -68,7 +68,7 @@ export const ParticleBackground = () => {
             line_linked: {
               enable: true,
               distance: 100,
-              color: "#272727",
+              color: "#414040",
               opacity: 0.4,
               width: 0.4,
             },
