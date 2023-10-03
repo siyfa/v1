@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Logo } from "../style";
+import Resume from "../../assets/resume.pdf";
 //
 import "animate.css";
 
@@ -111,8 +112,9 @@ function NavBar() {
             </li>
             <li>
               <a
-                href="#"
-                onClick={toggleMenu}
+                href={Resume}
+                // onClick={toggleMenu}
+                rel="noopener noreferrer"
                 className="block py-2 pl-3 pr-4 md:text-gray-100 text-black md:font-normal font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Resume

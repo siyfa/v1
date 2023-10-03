@@ -192,7 +192,7 @@ export const Experience = () => {
                 ProctorMe
               </a>
             </h4>
-            <p className="text-lg">December 2021 - May 2022</p>
+            <p className="text-lg">April 2021 - October 2021</p>
             <p className="text-md"> - Contract</p>
             <ol className="mt-5 list-disc ml-5 text-lg md:w-3/4">
               <li className="mb-5">
