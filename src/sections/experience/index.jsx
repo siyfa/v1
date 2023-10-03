@@ -185,7 +185,7 @@ export const Experience = () => {
             <h4 className="text-2xl">
               Frontend Developer -
               <a
-                href="https://proctorme.com"
+                href="https://proctorme.com/"
                 className="text-gray-100 font-bold hover:underline ml-1"
                 target="_blank"
               >

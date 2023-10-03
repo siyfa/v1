@@ -25,13 +25,13 @@ export const Works = () => {
           if (i % 2 === 0) {
             return (
               <div
-                className="flex flex-wrap flex-col justify-between mt-10 mb-10 "
+                className="flex flex-wrap flex-col justify-between mt-10 mb-16 "
                 key={i}
               >
                 <div className="flex flex-wrap md:flex-row relative">
                   <a
                     href={work.url ? work.url : "#"}
-                    target="_blank"
+                    target={work.url && "_blank"}
                     rel="noopener noreferrer"
                     className="md:h-96 h-[350px] md:w-2/3 w-full"
                   >
@@ -49,7 +49,7 @@ export const Works = () => {
                       )}
                       <a
                         href={work.url ? work.url : "#"}
-                        target="_blank"
+                        target={work.url && "_blank"}
                         className="font-tetiary font-bold hover:underline"
                       >
                         {work.name}
@@ -57,7 +57,7 @@ export const Works = () => {
                     </div>
                     <div className="">
                       <div className="md:bg-[#f0f0f0] bg-[rgba(10,10,10,0.8)] md:h-56 w-full absolute md:top-20 top-0 bottom-0 md:right-1/4 ">
-                        <p className="p-2 text-lg md:text-black md:font-bold font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
+                        <p className="p-2 md:text-lg md:text-black text-white font-semibold md:font-bold font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
                           {work.description}
                         </p>
                       </div>
@@ -92,7 +92,7 @@ export const Works = () => {
           } else {
             return (
               <div
-                className="flex flex-wrap flex-col justify-between my-16"
+                className="flex flex-wrap flex-col justify-between md:my-24"
                 key={i}
               >
                 <div className="flex flex-wrap md:flex-row relative">
@@ -105,14 +105,14 @@ export const Works = () => {
                       )}
                       <a
                         href={work.url ? work.url : "#"}
-                        target="_blank"
+                        target={work.url && "_blank"}
                         className="font-tetiary font-bold hover:underline text-left flex md:ml-0 ml-2 md:mt-0 mt-2 md:relative absolute z-20"
                       >
                         {work.name}
                       </a>
                     </div>
                     <div className="md:bg-[#f0f0f0] bg-[rgba(10,10,10,0.8)] md:h-56 h-[350px] w-full absolute md:top-20 md:left-1/4 top-0 bottom-0 left-0">
-                      <p className="p-2 text-lg md:text-black md:font-bold font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
+                      <p className="p-2 md:text-lg md:text-black text-white font-semibold md:font-bold font-tetiary md:tracking-wide tracking-widest md:mt-0 mt-10 md:ml-0 ml-2">
                         {work.description}
                       </p>
                     </div>
@@ -142,7 +142,7 @@ export const Works = () => {
                   </div>
                   <a
                     href={work.url ? work.url : "#"}
-                    target="_blank"
+                    target={work.url && "_blank"}
                     rel="noopener noreferrer"
                     className="md:h-96 h-[350px] md:w-2/3 w-full"
                   >
