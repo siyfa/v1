@@ -6,7 +6,7 @@ const works = [
         tools: ["React", "Node", "MongoDB", "Redux", "Sass"],
         github: null,
         url: "https://befrique.com",
-        image: "/src/assets/images/befrique.jpg",
+        image: "/assets/images/befrique.jpg",
         featured: false
     },
     {
@@ -15,7 +15,7 @@ const works = [
         tools: ["React", "Node", "PostgreSQL", "Docker", "Redis"],
         github: null,
         url: "https://logistat.africa",
-        image: "/src/assets/images/logistat.jpg",
+        image: "/assets/images/logistat.jpg",
         featured: true
     },
     {
@@ -24,7 +24,7 @@ const works = [
         tools: ["React", "Node", "PostgreSQL", "Docker", "Redis"],
         github: null,
         url: null,
-        image: "/src/assets/images/logistat-tenant.jpg",
+        image: "/assets/images/logistat-tenant.jpg",
         featured: true
     },
     {
@@ -33,7 +33,7 @@ const works = [
         tools: ["React", "Node", "PostgreSQL", "Docker", "Redis"],
         github: null,
         url: null,
-        image: "/src/assets/images/logistat-admin.jpg",
+        image: "/assets/images/logistat-admin.jpg",
         featured: true
     },
     {
@@ -42,7 +42,7 @@ const works = [
         tools: ["Node", "PostgreSQL", "jQuery", "Bootstrap"],
         github: null,
         url: null,
-        image: "/src/assets/images/tms1.jpg",
+        image: "/assets/images/tms1.jpg",
         featured: true
     },
     {
@@ -51,7 +51,7 @@ const works = [
         tools: ["Node", "EJS", "jQuery", "PostgreSQL"],
         github: null,
         url: "https://smartdepositscheme.com/",
-        image: "/src/assets/images/sds.jpg",
+        image: "/assets/images/sds.jpg",
         featured: true
     },
     {
@@ -60,7 +60,7 @@ const works = [
         tools: ["React", "Redux", "Sass", "Styled-component"],
         github: null,
         url: "https://proctorme.com/",
-        image: "/src/assets/images/proctorme.jpg",
+        image: "/assets/images/proctorme.jpg",
         featured: true
     },
     {
@@ -69,7 +69,7 @@ const works = [
         tools: ["Node", "React", "Typescript", "MongoDB", "PWA"],
         github: null,
         url: null,
-        image: "/src/assets/images/foodtrain.jpg",
+        image: "/assets/images/foodtrain.jpg",
         featured: true
     },
     {
@@ -78,7 +78,7 @@ const works = [
         tools: ["React", "Styled-component", "Tailwind", "Netlify"],
         github: "https://www.github.com/siyfa/v1",
         url: "https://siyfa.com",
-        image: "/src/assets/images/v1.jpg",
+        image: "/assets/images/v1.jpg",
         featured: false
     },
     {
@@ -87,7 +87,7 @@ const works = [
         tools: ["React", "Styled-component"],
         github: "https://github.com/siyfa/Moviehour",
         url: "https://moviehour.netlify.app/",
-        image: "/src/assets/images/moviehour.jpg",
+        image: "/assets/images/moviehour.jpg",
         featured: false
     },
     {
@@ -96,18 +96,18 @@ const works = [
         tools: ["React", "Styled-component"],
         github: "https://github.com/siyfa/aiora",
         url: "https://aiora.netlify.app/",
-        image: "/src/assets/images/aiora.jpg",
+        image: "/assets/images/aiora.jpg",
         featured: false
     },
-    {
-        name: "Tiktok Clone",
-        description: "I created a TikTok clone using a few slides to showcase my styling creativity.",
-        tools: ["React", "Material-UI"],
-        github: "https://github.com/siyfa/Tiktok-status-clonny",
-        url: "https://tiktokstatusclonny.netlify.app/",
-        image: "/src/assets/images/tiktok.jpg",
-        featured: false
-    }
+    // {
+    //     name: "Tiktok Clone",
+    //     description: "I created a TikTok clone using a few slides to showcase my styling creativity.",
+    //     tools: ["React", "Material-UI"],
+    //     github: "https://github.com/siyfa/Tiktok-status-clonny",
+    //     url: "https://tiktokstatusclonny.netlify.app/",
+    //     image: "/src/assets/images/tiktok.jpg",
+    //     featured: false
+    // }
 ]
 
 export { works }
